@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Farm Schemes</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img class="gif-icon" src="farm.gif" alt="GIF Icon">
+            
+        </div>
+    </header>
+    
+    <div class="container">
+        <h1>Farm Schemes</h1>
+        <label for="stateSelect">Select State:</label>
+        <select id="stateSelect" onchange="fetchSchemes()">
+            <option value="" disabled selected>Select State</option>
+            <option value="delhi">Delhi</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="tamilnadu">Tamil naadu</option>
+            <option value="kerala">Kerala</option>
+            <option value="central_government">central govt</option>
+        </select>
+        <div id="schemesOutput"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

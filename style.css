@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('PHOTO-2024-01-10-12-15-42.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif-icon {
+    width: 150px; /* Adjust the width as per your preference */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; 
+}
+
+
+
+.header-content {
+    display: flex;
+    left:560px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 200px;
+    
+}
+.down{
+    position: relative;
+    top:80px;
+    
+}
+.container {
+    text-align: center;
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(9, 1, 1, 0.1);
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#schemesOutput {
+    margin-top: 20px;
+}
